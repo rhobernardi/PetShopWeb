@@ -7,11 +7,11 @@ body, html
 
 #top_bar
 {
-	padding: 0;
+	padding: 3%;
 	border-top: 2px solid rgba(52,74,95,0.5);
 	border-bottom: 2px solid rgba(52,74,95,0.5);
 	width: 100%;
-	height: 100px;
+	/*height: 100px;*/
 	background-color: rgba(52,74,95,0.5);
 	-webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.4);
 	-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.4);
@@ -28,10 +28,12 @@ body, html
 #login_area
 {
 	position: absolute;
+	border-top-left-radius: 50%;
 	border-bottom-left-radius: 50%;
-	width: 800px;
-	height: 200px;
-	left: 60%;
+	width: 50%;
+	height: 25%;
+	left: 70%;
+	top: -3%;
 	background-color: rgba(21, 174, 21, 0.9);
 	-webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.4);
 	-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.4);
@@ -40,8 +42,8 @@ body, html
 
 input[type=text], select {
     width: 60%;
-    padding: 3px 5px;
-    margin: 2px 0;
+    padding: 2px 5px;
+    margin: 1px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -50,8 +52,8 @@ input[type=text], select {
 
 input[type=password], select {
     width: 60%;
-    padding: 3px 5px;
-    margin: 2px 0;
+    padding: 2px 5px;
+    margin: 1px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -68,6 +70,7 @@ input[type=login_button] {
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
+
 }
 
 input[type=login_button]:hover {
@@ -75,10 +78,12 @@ input[type=login_button]:hover {
 }
 
 div.login {
+	text-align: center;
 	left: -60%;
 	width: 60%;
 	height: 60%;
     border-radius: 5px;
-    background-color: rgba(242, 242, 242, 0.4);
-    padding: 20px;
+    /*background-color: rgba(242, 242, 242, 0.4);*/
+    padding-left: 50px;
+    padding-top: 3%
 }
