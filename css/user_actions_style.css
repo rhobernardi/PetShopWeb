@@ -1,0 +1,116 @@
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+h1
+{
+	text-align: center;
+}
+
+div.action
+{
+	width: 400px;
+	height: 400px;
+	border-width: 2px;
+	background: green;
+}
+
+div.left
+{
+	float: left;
+	margin: 20px;
+}
+
+div.right
+{
+	float: right;
+	margin: 20px;
+}
+
+.float_fix
+{
+	clear: both;
+}
+
+
+/*Botao agendar*/
+#agendar
+{
+	color: white;
+	background: green;
+}
+
+#agendar p
+{
+	text-align: center;
+	line-height: 50px;
+}
+
+#agendar img
+{
+	width: 200px;
+	height: 200px;
+	margin: 50px 100px;
+}
+
+
+/*Botao comprar*/
+#comprar
+{
+	color: white;
+	background: blue;
+}
+
+#comprar p
+{
+	text-align: center;
+	line-height: 50px;
+}
+
+#comprar img
+{
+	width: 200px;
+	height: 200px;
+	margin: 50px 100px;
+}
+
+
+/*Botao cadastrar*/
+#cadastrar
+{
+	color: white;
+	background: purple;
+}
+
+#cadastrar p
+{
+	text-align: center;
+	line-height: 50px;
+}
+
+#cadastrar img
+{
+	width: 200px;
+	height: 200px;
+	margin: 50px 100px;
+}
+
+
+/*Botao configuracoes*/
+#editar
+{
+	color: white;
+	background: #aaa;
+}
+
+#editar p
+{
+	text-align: center;
+	line-height: 50px;
+}
+
+#editar img
+{
+	width: 200px;
+	height: 200px;
+	margin: 50px 100px;
+}

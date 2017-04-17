@@ -5,6 +5,9 @@ body, html
 	background-color: #ccc;
 }
 
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
 body
 {
 	overflow-x: hidden;
@@ -80,7 +83,7 @@ input[type=login_button] {
 }
 
 input[type=login_button]:hover {
-    background-color: rgb(52,74,95);;
+    background-color: rgb(52,74,95);
 }
 
 div.login {
