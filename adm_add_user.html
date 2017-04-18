@@ -7,7 +7,7 @@
     <meta name="description" content="PETSHOP WEB">
 
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/user_actions_style.css" rel="stylesheet">
+    <link href="css/adm_add_clients_style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,600,700" rel="stylesheet">
 
     <title>PETSHOP WEB</title>
@@ -27,7 +27,7 @@
 				<div class="login">
 
 					<br><br><br>
-					<p>Logado como CLIENTE</p>
+					<p>Logado como ADMINISTRADOR</p>
 
 				</div>
 
@@ -51,30 +51,46 @@
 	</div>
 	
 	<div id="page_content">
-		
-			<h1>Bem Vindo!</h1>
 
-			<a href="user_calendar.html"><button class="action left" id="agendar">
-				<img src="img/agenda.png">
-				<p>Agendar Horario</p>
-			</button></a>
-			<a href="user_buy_product.html"><button class="action right" id="comprar">
-				<img src="img/sacola.png">
-				<p>Comprar Produtos</p>
-			</button></a>
-			<div class="float_fix"></div>
+			 <div class="type">
+			  <ul>
+			    <li>
+			      Cadastro de Clientes<br>
+			    </li>
+			  </ul>
+			</div>
 
-			<a href="user_add_pets.html"><button class="action left" id="cadastrar">
-				<img src="img/pet.png">
-				<p>Cadastrar/Listar Pets</p>
-			</button></a>
-			<a href="#"><button class="action right" id="editar">
-				<img src="img/config.png">
-				<p>Configurações</p>
-			</button></a>
-			<div class="float_fix"></div>
+			<ul class="cadastro">
+				<li>Foto</li>
+				<li>Nome</li>
+				<li>ID</li>
+				<li>Endereço</li>
+				<li>Telefone</li>
+				<li>E-mail</li>
+			</ul>
 
-		</div>
+			<ul class="data">
+			  
+			  <li><img src="img/ukn_user.png"></li>
+			  <li>Fulano</li>
+			  <li>274948</li>
+			  <li>Rua B</li>
+			  <li>(16)99999-9999</li>
+			  <li>ful@pet2.com</li>
+
+			  <li><img src="img/ukn_user.png"></li>
+			  <li>Ciclano</li>
+			  <li>274949</li>
+			  <li>Rua A</li>
+			  <li>(16)88888-8888</li>
+			  <li>cic@pet.com</li>
+			</ul>
+        
+		<input type="button" value="Adicionar" alt="Adicionar">	
+        <input type="button" value="Editar" alt="Editar">
+        <input type="button" value="Excluir" alt="Excluir">
+
+	</div>
 
 	</div>
 

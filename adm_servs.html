@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="PETSHOP WEB">
+
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/adm_servs.css" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,600,700" rel="stylesheet">
+
+    <title>PETSHOP WEB</title>
+
+</head>
+<body>
+	
+	<div class="site_background">
+
+		<nav id="top_bar">
+
+			<a href="index.html" id="logo"><img id="pet_shop_logo" src="img/Logo_vetor.png" alt="logo_petshop_web" style="width:400px;height:300px;"></a>
+					
+
+			<div id="login_area">
+
+				<div class="login">
+
+					<br><br><br>
+					<p>Logado como ADMINISTRADOR</p>
+
+
+				</div>
+
+			</div>
+			
+		</nav>
+
+
+	<div id="side_bar">
+		<a href="index.html"><h2>HOME</h2></a>
+		<a href="servicos.html"><h2>Servicos</h2></a>
+		<a href="servicos.html/id=1">Servico1</a>
+		<a href="servicos.html/id=2">Servico2</a>
+		<a href="servicos.html/id=3">Servico3</a>
+		<a href="produtos.html"><h2>Produtos</h2></a>
+		<a href="produtos.html/cat=1">Categoria1</a>
+		<a href="produtos.html/cat=2">Categoria2</a>
+		<a href="produtos.html/cat=3">Categoria3</a>
+
+
+	</div>
+	
+	<div id="page_content">
+	<div id="contentgenr">
+	<h2 id="titlecont"style="text-align: center;">Gerenciamento de Servicos</h2>
+		<div style="width:500px; height:200px; overflow:auto; position: relative; left: 25%;">
+     		<table cellspacing="0" cellpadding="1" border="1" width="300" >
+  				<tr>
+	  				<th>Codigo</th>
+	  				<th>Tipo Servico</th>
+	  				<th>Data</th>
+	  				<th>Horario</th>
+	  				<th>Cliente</th>
+	
+  				</tr>
+  				<tr>
+  				  <td>1234</td>
+  				  <td>Tosa</td>
+  				  <td>20/5/2017</td>
+  				  <td>13:30</td>
+  				  <td>Ana</td>
+  				</tr>
+  				<tr>
+  				  <td>1235</td>
+  				  <td>Banho</td>
+  				  <td>22/5/2017</td>
+  				  <td>19:30</td>
+  				  <td>Carlos</td>
+  				</tr>
+  				<tr>
+  				  <td>1236</td>
+  				  <td>Banho</td>
+  				  <td>22/5/2017</td>
+  				  <td>18:30</td>
+  				  <td>Marcia</td>
+  				</tr>
+			</table>
+		</div>
+		<div style="position: relative; left: 20%;">
+				    <input type="text" id="incod" placeholder="Codigo">
+				    <input type="text" id="inserv" placeholder="Servico">
+				    <input type="text" id="indata" placeholder="Data">
+				    <input type="text" id="inhora" placeholder="Horario">
+				    <input type="text" id="incli" placeholder="Cliente">
+
+
+				    <input type="login_button" value="Registrar">
+				    <input type="login_button" value="Atualizar">
+				    <input type="login_button" value="Remover">
+			
+		</div>
+		</div>
+
+
+	</div>
+
+	</div>
+
+</body>
+</html>

@@ -9,7 +9,7 @@ button.action
 	width: 440px;
 	height: 440px;
 	border-width: 2px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
 }
 
 button:hover
@@ -36,43 +36,43 @@ button.right
 }
 
 
-/*Botao agendar*/
-#agendar
-{
-	color: white;
-	font-weight: bold;
-	background: green;
-}
-
-#agendar p
-{
-	text-align: center;
-	line-height: 50px;
-}
-
-#agendar img
-{
-	width: 200px;
-	height: 200px;
-	margin: 50px 100px;
-}
-
-
-/*Botao comprar*/
-#comprar
+/*Botao admin*/
+#admin
 {
 	color: white;
 	font-weight: bold;
 	background: blue;
 }
 
-#comprar p
+#admin p
 {
 	text-align: center;
 	line-height: 50px;
 }
 
-#comprar img
+#admin img
+{
+	width: 250px;
+	height: 200px;
+	margin: 50px 100px;
+}
+
+
+/*Botao clientes*/
+#clientes
+{
+	color: white;
+	font-weight: bold;
+	background: green;
+}
+
+#clientes p
+{
+	text-align: center;
+	line-height: 50px;
+}
+
+#clientes img
 {
 	width: 200px;
 	height: 200px;
@@ -80,21 +80,21 @@ button.right
 }
 
 
-/*Botao cadastrar*/
-#cadastrar
+/*Botao estoque*/
+#estoque
 {
 	color: white;
 	font-weight: bold;
 	background: purple;
 }
 
-#cadastrar p
+#estoque p
 {
 	text-align: center;
 	line-height: 50px;
 }
 
-#cadastrar img
+#estoque img
 {
 	width: 200px;
 	height: 200px;
@@ -102,21 +102,21 @@ button.right
 }
 
 
-/*Botao configuracoes*/
-#editar
+/*Botao servicos*/
+#serviços
 {
 	color: black;
 	font-weight: bold;
 	background: #aaa;
 }
 
-#editar p
+#serviços p
 {
 	text-align: center;
 	line-height: 50px;
 }
 
-#editar img
+#serviços img
 {
 	width: 200px;
 	height: 200px;

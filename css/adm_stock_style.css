@@ -1,0 +1,134 @@
+
+
+/* type header */
+.type {
+    padding: 70px 0px;
+    width: 100%;
+    background: rgb(52,74,95); /*#1abc9c;*/
+    text-align: center;
+}
+
+/* type list */
+.type ul {
+    margin: 0;
+    padding: 0;
+}
+
+.type ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside type header */
+.type .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.type .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* cadastro (Mon-Sun) */
+.cadastro {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.cadastro li {
+    display: inline-block;
+    width: 33.1%;
+    color: #666;
+    text-align: center;
+}
+
+/* data (1-31) */
+.data {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.data li {
+    list-style-type: none;
+    display: inline-block;
+    width: 33.1%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.data li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+#page_content h1
+{
+    text-align: center;
+}
+
+.services
+{
+    display: inline-block;
+}
+
+
+input[type=schedule] {
+    width: 60%;
+    display: block;
+    background-color: rgba(52, 74, 95, 0.9);
+    color: white;
+    padding: 8px 4px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input[type=schedule]:hover {
+    background-color: rgb(52,74,95);
+}
+
+.select_data
+{
+    display: inline block;
+}
+
+.select_data span
+{
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+.select_time
+{
+    display: inline-block;
+}
+
+#time
+{
+    width: 70px;
+}
+
+input[type="button"]{
+    width: 100px;
+    font-family: Arial, sans-serif;
+    
+}
+
+#page_content a
+{
+    /*display: block;*/
+    text-decoration: none;
+}

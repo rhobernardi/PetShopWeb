@@ -7,7 +7,7 @@
     <meta name="description" content="PETSHOP WEB">
 
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/user_actions_style.css" rel="stylesheet">
+    <link href="css/adm_stock_style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,600,700" rel="stylesheet">
 
     <title>PETSHOP WEB</title>
@@ -27,7 +27,7 @@
 				<div class="login">
 
 					<br><br><br>
-					<p>Logado como CLIENTE</p>
+					<p>Logado como ADMINISTRADOR</p>
 
 				</div>
 
@@ -51,30 +51,41 @@
 	</div>
 	
 	<div id="page_content">
-		
-			<h1>Bem Vindo!</h1>
 
-			<a href="user_calendar.html"><button class="action left" id="agendar">
-				<img src="img/agenda.png">
-				<p>Agendar Horario</p>
-			</button></a>
-			<a href="user_buy_product.html"><button class="action right" id="comprar">
-				<img src="img/sacola.png">
-				<p>Comprar Produtos</p>
-			</button></a>
-			<div class="float_fix"></div>
+			 <div class="type">
+			  <ul>
+			    <li>
+			      Estoque<br>
+			    </li>
+			  </ul>
+			</div>
 
-			<a href="user_add_pets.html"><button class="action left" id="cadastrar">
-				<img src="img/pet.png">
-				<p>Cadastrar/Listar Pets</p>
-			</button></a>
-			<a href="#"><button class="action right" id="editar">
-				<img src="img/config.png">
-				<p>Configurações</p>
-			</button></a>
-			<div class="float_fix"></div>
+			<ul class="cadastro">
+				<li>Nome</li>
+				<li>Tipo</li>
+				<li>Quantidade</li>
+			</ul>
 
-		</div>
+			<ul class="data">
+			  
+			  <li>Racao A</li>
+			  <li>Comida</li>
+			  <li>200</li>
+			  <li>Racao B</li>
+			  <li>Comida</li>
+			  <li>150</li>
+			  <li>Sabonete</li>
+			  <li>Banho</li>
+			  <li>130</li>
+			</ul>
+        
+		<input type="button" value="Adicionar" alt="Adicionar">	
+        <input type="button" value="Editar" alt="Editar">
+        <input type="button" value="Atualizar" alt="Atualizar">	
+        <input type="button" value="Excluir" alt="Excluir">
+        <a href="adm_ganhs.html"><input type="button" value="Vendas" alt="Vendas"></a>	
+
+	</div>
 
 	</div>
 
