@@ -1,0 +1,54 @@
+body 
+{
+	background: #eee !important;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/*button[type="button"]
+{
+    
+    margin: 7ren;
+    padding: 200px;
+}*/
+
+/*
+img
+{
+    width: 100%;
+    max-width: 200rem;
+    height: 200rem;
+    margin: 0 auto;
+}
+*/
+
+#content .btn{
+    padding: 3rem 0 3rem 0;
+}
+
+#store
+{
+    margin: 0rem;
+    background: green;
+}
+
+#schedule
+{
+    margin: 0rem;
+    background: blue;
+}
+
+#pets
+{
+    margin: 0rem;
+    background: purple;
+}
+
+#configs
+{
+    margin: 0rem;
+    background: gray;
+}
