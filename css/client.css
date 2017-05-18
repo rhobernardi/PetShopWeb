@@ -1,0 +1,90 @@
+body 
+{
+	background: #eee !important;
+}
+
+h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*button[type="button"]
+{
+    
+    margin: 7ren;
+    padding: 200px;
+}*/
+
+
+#content .btn{
+    padding: 3rem 0 3rem 0;
+    font-family: ;
+}
+
+#store
+{
+    margin: 4rem 4rem 4rem 6rem;
+    background: green;
+}
+
+#schedule
+{
+    margin: 4rem;
+    background: blue;
+}
+
+#pets
+{
+    margin: 4rem 4rem 4rem 6rem;
+    background: purple;
+}
+
+#configs
+{
+    margin: 4rem;
+    background: gray;
+}
+
+#store img
+{
+    width: 50%;
+    min-width: 20rem; 
+    max-width: 20rem;
+    height: 20rem;
+    margin: 5rem auto
+}
+
+#schedule img
+{
+    width: 50%; 
+    min-width: 20rem; 
+    max-width: 20rem;
+    height: 20rem; 
+    margin: 5rem auto;
+}
+
+#pets img
+{
+    width: 50%; 
+    min-width: 20rem; 
+    max-width: 20rem;
+    height: 20rem; 
+    margin: 5rem auto
+}
+
+#configs img
+{
+    width: 50%; 
+    min-width: 20rem; 
+    max-width: 20rem;
+    height: 20rem; 
+    margin: 5rem auto
+}
+
+p
+{
+    font-size: 2rem;
+    color: #eee;
+}

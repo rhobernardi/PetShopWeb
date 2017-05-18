@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <title>PetShop Web</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
 
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/client.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,6 +16,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
 
     <nav class="navbar navbar-inverse">
@@ -36,53 +38,69 @@
                 </a>
 
             </div>
-            
+
             <form class="navbar-form navbar-left" role="search">
-                
+
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                 </div>
-                
+
                 <button type="submit" class="btn btn-default"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                
+
             </form>
 
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav">
 
-                    <li class="active"><a href="index.html">Sign In</a></li>
-                    <!--<li><a href="#">Home</a></li>-->
-                    <!--<li><a href="#">Link</a></li>-->
-                    <!--<li><a href="#">Sign In</a></li>-->
-                    <li><a href="sign_up.html">Sign Up</a></li>
-                    
+                    <li class="active"><a href="client_menu.html">Home</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="schedule.html">Schedules</a></li>
+                    <li><a href="pets.html">Pets</a></li>
+                    <li><a href="configs.html">Settings</a></li>
+                    <li><a href="sign_in.html">Log out</a></li>
+
                 </ul>
             </div>
         </div>
     </nav>
-    
-    <div class="wrapper">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
-        <div class="checkbox">
-          <label>
-            <input value="remember-me" type="checkbox"> Remember me
-          </label>
+    <div id="content" class="container center-block" style="background-color: #fff;">
+        <div class="row center-block text-center">
+
+            <h1>Welcome!</h1>
+
+            <a href="store.html"><button class="col-md-5 btn btn-default text-center" id="store" type="submit">
+                <img src="img/sacola.png" class="img-responsive" alt="Responsive image">
+                <br>
+                <p>Store</p>
+            </button></a>
+            
+            <a href="schedule.html"><button class="col-md-5 btn btn-default" id="schedule" type="submit">
+                <img src="img/agenda.png" class="img-responsive" alt="Responsive image">
+                <br>
+                <p>Schedule</p>
+            </button></a>
+            
+            <a href="pets.html"><button class="col-md-5 btn btn-default" id="pets" type="submit">
+                <img src="img/pet.png" class="img-responsive" alt="Responsive image">
+                <br>
+                <p>Pet Spot</p>
+            </button></a>
+            
+            <a href="configs.html"><button class="col-md-5 btn btn-default" id="configs" type="submit">
+                <img src="img/config.png" class="img-responsive" alt="Responsive image">
+                <br>
+                <p>Settings</p>
+            </button></a>
+
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in!</button>
-        </form>
     </div>
-    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1.0">
 
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sign_in.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,11 +51,11 @@
 
                 <ul class="nav navbar-nav">
 
-                    <li class="active"><a href="index.html">Sign In</a></li>
+                    <li><a href="sign_in.html">Sign In</a></li>
                     <!--<li><a href="#">Home</a></li>-->
                     <!--<li><a href="#">Link</a></li>-->
                     <!--<li><a href="#">Sign In</a></li>-->
-                    <li><a href="sign_up.html">Sign Up</a></li>
+                    <li class="active"><a href="sign_up.html">Sign Up</a></li>
                     
                 </ul>
             </div>
@@ -65,17 +65,24 @@
     <div class="wrapper">
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Sign up</h2>
+        <label for="inputName" class="sr-only">Name</label>
+        <input id="inputName" class="form-control" placeholder="Name" required="" autofocus="" type="text">
+        <label for="inputLastName" class="sr-only">Last Name</label>
+        <input id="inputLastName" class="form-control" placeholder="Last name" required="" autofocus="" type="text">
         <label for="inputEmail" class="sr-only">Email address</label>
         <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
+        <br>
         <label for="inputPassword" class="sr-only">Password</label>
         <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
+        <label for="inputPassword" class="sr-only">Comfirm password</label>
+        <input id="inputPassword" class="form-control" placeholder="Confirm password" required="" type="password">
         <div class="checkbox">
           <label>
             <input value="remember-me" type="checkbox"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in!</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up!</button>
         </form>
     </div>
     
