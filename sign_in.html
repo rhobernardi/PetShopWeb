@@ -61,18 +61,22 @@
     
     <div class="wrapper">
 
-      <form class="form-signin">
+      <form id="Sign_in_Form"class="form-signin" action="javascript:console.log('logou');">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
+        <div id="errorEmail">
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
+        </div>
+        <div id="errorPass">
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
+        </div >
         <div class="checkbox">
           <label>
             <input value="remember-me" type="checkbox"> Remember me
           </label>
-        </div>
-        <a href="client_menu.html"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in!</button></a>
+        </div >
+        <a><button class="btn btn-lg btn-primary btn-block" id="Submit_Button">Sign in!</button></a>
         </form>
     </div>
     
@@ -81,5 +85,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jQuery/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript" src="js/sign_in.js"></script>
 </body>
 </html>
