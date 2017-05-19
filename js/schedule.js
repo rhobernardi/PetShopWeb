@@ -24,4 +24,5 @@ $(document).ready(function(){
 //    set
 //    $('#txt_name').val(bla);
       });
+    //$("#cardnumber")
 });

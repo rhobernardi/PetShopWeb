@@ -91,10 +91,10 @@
             </div>
             <div class="row">
                 <div class='col-sm-offset-3 col-sm-4'>
-                    <input type='text' class="form-control" id="cardnumber" placeholder="Card Number" />
+                    <input type='text' data-inputmask="'mask': '9999 9999 9999 9999'" class="form-control" id="cardnumber" placeholder="Card Number" />
                 </div>
                 <div class='col-sm-2'>
-                    <input type='text' class="form-control" id="securitycode" placeholder="Security Code" />
+                    <input type='text' data-inputmask="'mask': '999'" class="form-control" id="securitycode" placeholder="Security Code" />
                 </div>
             </div>
 
@@ -122,6 +122,9 @@
     <script type="text/javascript" src="jQuery/chosen.jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/schedule.js"></script>
+    <script type="text/javascript" src="mask/dist/jquery.inputmask.bundle.js"></script>
+    <script type="text/javascript" src="mask/dist/inputmask/inputmask.numeric.extensions.js"></script>
+    <script type="text/javascript" src="mask/dist/inputmask/bindings/inputmask.binding.js"></script>
 
 </body>
 
