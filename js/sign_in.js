@@ -33,7 +33,7 @@ $(document).ready(function(){
 					}
 				}
                 
-                if(input_email === adm)
+                else if(input_email === adm)
 				{
 					if(input_pass === adm_pass)
 					{
