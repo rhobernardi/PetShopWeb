@@ -10,19 +10,34 @@ $(document).ready(function(){
         var cardnumber = $('#cardnumber').val();
         var securitycode = $('#securitycode').val();
         var date = $('#datepicker').val();
-
-        console.log("petname = " + petname);
-        console.log("service = " + service);
-        console.log("cardnumber = " + cardnumber);
-        console.log("securitycode = " + securitycode);
-        console.log("date = " + date);
         
-        alert(
-            "Schedule Successfull!\n\n" +
-            petname + " have a " + service + " commitment on day " + date + "!"
-        )
-//    set
-//    $('#txt_name').val(bla);
+        if( petname != "" && service != "" && 
+           cardnumber != "" && securitycode != "" && 
+           date != ""){
+            
+            cardnumber = cardnumber.replace(" ","");
+            cardnumber = cardnumber.replace(" ","");
+            cardnumber = cardnumber.replace(" ","");
+            
+            //transform "9999 9999 9999 9999" in "9999999999999999"
+            
+            if(cardnumber.search("_") == -1)
+            {
+                if(securitycode.search("_") == -1)
+                {
+                    console.log("petname = " + petname);
+                    console.log("service = " + service);
+                    console.log("cardnumber = " + cardnumber);
+                    console.log("securitycode = " + securitycode);
+                    console.log("date = " + date);
+
+                    alert("Schedule Successfull!\n\n" +
+                        petname + " have a " + service + " commitment on day " + date + "!");
+                }
+                else alert("Invalid security code!!");
+            }
+            else alert("Invalid card number!!");
+        }
+        else alert("Fill all fields!!");
       });
-    //$("#cardnumber")
 });
