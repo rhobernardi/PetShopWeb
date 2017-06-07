@@ -73,45 +73,57 @@
             <br><br>
 
             <div class="row">
-                <div class='col-sm-offset-3 col-sm-4'>
-                    <input type='text' class="form-control" id="petname" placeholder="Pet Name" />
+                <br>
+                <div class='col-sm-offset-4 col-sm-4'>
+                    <input type='text' class="form-control" id="name" placeholder="Name" />
                 </div>
-                <div class='col-sm-2'>
+            </div>
+            <div class="row">
+                <br>
+                <div class='col-sm-offset-4 col-sm-4'>
+                    <input type='text' class="form-control" id="departament" placeholder="Departament" />
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <div class='col-sm-offset-4 col-sm-4'>
+                    <input type='text' class="form-control" id="brand" placeholder="Brand" />
+                </div>
+            </div>
+            
+            <div class="row">
+                <br>
+                <div class='col-sm-offset-4 col-sm-2'>
+                    <input type='number' class="form-control" id="size" placeholder="Size/Weight/Quantity" min="0" />
+                </div>
+                <div class='col-sm-1'>
                     <div class="form-group">
-                        <select class="form-control chosen-select" placeholder="Choose a service..." id="service" tabindex="4">
+                        <select class="form-control chosen-select" placeholder="Choose a unit..." id="unit" tabindex="4">
                             <option value=""></option>
-                            <option value="bath">Bath</option>
-                            <option value="cough">Cough</option>
-                            <option value="medic">Medic</option>
-                            <option value="taxi dog">Taxi Dog</option>
+                            <option value="liters">Liters</option>
+                            <option value="unit">Units</option>
+                            <option value="meters">Meters</option>
+                            <option value="centimeters">Centimeters</option>
                         </select>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class='col-sm-offset-3 col-sm-4'>
-                    <input type='text' data-inputmask="'mask': '9999 9999 9999 9999'" class="form-control" id="cardnumber" placeholder="Card Number" />
-                </div>
-                <div class='col-sm-2'>
-                    <input type='text' data-inputmask="'mask': '999'" class="form-control" id="securitycode" placeholder="Security Code" />
+                <div class='col-sm-offset-4 col-sm-4'>
+                    <input type='text' class="form-control" id="price" placeholder="Price" />
                 </div>
             </div>
-
             <div class="row">
                 <br>
-                <div class='col-sm-offset-4 col-sm-2'>
-                    <label for="date">Date:
-                       <input type='text' class="form-control" id="datepicker"/>
-                   </label>
+                <div class='col-sm-offset-4 col-sm-4'>
+                    <textarea class="form-control" id="descrition" placeholder="Descrition" rows="4"></textarea>
                 </div>
-
-                <div class='col-sm-2'>
-                    <br>
-                    <button class="btn btn-md btn-primary btn-block" id="schedule">Schedule!</button>
-                </div>
-
-                <br><br><br><br>
             </div>
+            <div class='col-sm-offset-5 col-sm-2'>
+                <br>
+                <button class="btn btn-md btn-primary btn-block" id="Register">Register</button>
+            </div>
+            <br><br><br><br>
         </div>
     </div>
 
