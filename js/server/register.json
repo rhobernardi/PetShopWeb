@@ -1,0 +1,31 @@
+{
+	"users": [{
+			"name": "First User",
+			"email": "firstuser@email.com",
+			"password": "12345",
+			"birth": "11/05/1990"
+		},
+
+		{
+			"name": "Second User",
+			"email": "seconduser@email.com",
+			"password": "54321",
+			"birth": "09/03/1985"
+		}
+	],
+
+	"admins": [{
+			"name": "First Adm",
+			"email": "firstadm@email.com",
+			"password": "12345",
+			"birth": "15/01/1986"
+		},
+
+		{
+			"name": "Second Adm",
+			"email": "secondadm@email.com",
+			"password": "54321",
+			"birth": "04/08/1994"
+		}
+	]
+}
