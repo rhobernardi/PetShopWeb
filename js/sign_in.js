@@ -25,7 +25,12 @@ $(document).ready(function () {
 
                                     console.log("got an user");
                                     console.log("CLIENT-USER E PASS CORRETOS");
-
+                                    
+                                    document.cookie = "username=" + data[i][j].name;
+                                    document.cookie = "email=" + data[i][j].email;
+                                    document.cookie = "password=" + data[i][j].password;
+                                    document.cookie = "pet=" + data[i][j].pet;
+                                    
                                     window.location.href = "client_menu.html";
                                     console.log("client logged");
                                 }
