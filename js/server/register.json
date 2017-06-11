@@ -4,8 +4,8 @@
 			"email": "firstuser@email.com",
 			"password": "12345",
 			"birth": "11/05/1990",
-            "pet": "Aventureiro",
-            "petage": "6"
+            		"pet": "Aventureiro",
+            		"petage": "6"
 		},
 
 		{
@@ -13,8 +13,8 @@
 			"email": "seconduser@email.com",
 			"password": "54321",
 			"birth": "09/03/1985",
-            "pet": "Mr Pickles",
-            "petage": "2"
+            		"pet": "Mr Pickles",
+            		"petage": "2"
 		},
               
         {
@@ -22,8 +22,8 @@
 			"email": "thirduser@email.com",
 			"password": "67890",
 			"birth": "09/03/1985",
-            "pet": "Dogo",
-            "petage": "7"
+            		"pet": "Dogo",
+            		"petage": "7"
 		},
               
         {
@@ -31,8 +31,8 @@
 			"email": "forthuser@email.com",
 			"password": "09876",
 			"birth": "09/03/1985",
-            "pet": "Doge",
-            "petage": "1"
+            		"pet": "Doge",
+            		"petage": "1"
 		}
 	],
 
