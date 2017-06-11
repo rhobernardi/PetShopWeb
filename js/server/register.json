@@ -3,14 +3,36 @@
 			"name": "First User",
 			"email": "firstuser@email.com",
 			"password": "12345",
-			"birth": "11/05/1990"
+			"birth": "11/05/1990",
+            "pet": "Aventureiro",
+            "petage": "6"
 		},
 
 		{
 			"name": "Second User",
 			"email": "seconduser@email.com",
 			"password": "54321",
-			"birth": "09/03/1985"
+			"birth": "09/03/1985",
+            "pet": "Mr Pickles",
+            "petage": "2"
+		},
+              
+        {
+			"name": "Third User",
+			"email": "thirduser@email.com",
+			"password": "67890",
+			"birth": "09/03/1985",
+            "pet": "Dogo",
+            "petage": "7"
+		},
+              
+        {
+			"name": "Forth User",
+			"email": "forthuser@email.com",
+			"password": "09876",
+			"birth": "09/03/1985",
+            "pet": "Doge",
+            "petage": "1"
 		}
 	],
 
@@ -25,6 +47,20 @@
 			"name": "Second Adm",
 			"email": "secondadm@email.com",
 			"password": "54321",
+			"birth": "04/08/1994"
+		},
+               
+        {
+			"name": "Third Adm",
+			"email": "thirdadm@email.com",
+			"password": "67890",
+			"birth": "04/08/1994"
+		},
+               
+        {
+			"name": "Forth Adm",
+			"email": "forthadm@email.com",
+			"password": "09876",
 			"birth": "04/08/1994"
 		}
 	]
