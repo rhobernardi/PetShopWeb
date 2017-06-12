@@ -55,7 +55,7 @@
 
                     <li><a href="adm_menu.html">Home</a></li>
                     <li><a href="adm_reg_client.html">Register Client</a></li>
-                    <li class="active"><a href="adm_reg_adm.html">Register Administrator</a></li>
+                    <li class="active"><a href="#">Register Administrator</a></li>
                     <li><a href="adm_products.html">Products</a></li>
                     <li><a href="adm_services.html">Services</a></li>
                     <li><a href="sign_in.html">Log out</a></li>
@@ -74,41 +74,33 @@
 
             <div class="row">
                 <br>
-                <div class='col-sm-offset-4 col-sm-4'>
-                    <input type='text' class="form-control" id="name" placeholder="Name" />
+                <div class='col-sm-offset-2 col-sm-4'>
+                    <input type='text' class="form-control " id="reg_client_firstname" placeholder="First Name" />
+                </div>
+                <div class='col-sm-4'>
+                    <input type='text' class="form-control " id="reg_client_lastname" placeholder="Last Name" />
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <div class='col-sm-offset-2 col-sm-4'>
+                    <input type='text' class="form-control " id="reg_client_birth" placeholder="Birth" />
+                </div>
+                <div class='col-sm-4'>
+                    <input type='text' class="form-control " id="reg_client_email" placeholder="Email" />
                 </div>
             </div>
             <div class="row">
                 <br>
                 <div class='col-sm-offset-4 col-sm-4'>
-                    <input type='text' class="form-control" id="email" placeholder="Email" />
+                    <input type='text' class="form-control " data-inputmask="'mask': '(99) 99999-9999'" id="reg_client_phone" placeholder="Phone" />
                 </div>
             </div>
-            <div class="row">
-                <br>
-                <div class='col-sm-offset-4 col-sm-4'>
-                    <input type='password' class="form-control" id="psw" placeholder="Password" />
-                </div>
-            </div>
-            <div class="row">
-                <br>
-                <div class='col-sm-offset-4 col-sm-4'>
-                    <input type='password' class="form-control" id="rpsw" placeholder="Repeat Password" />
-                </div>
-            </div>
-
-            <div class="row">
-                <br>
-                <div class='col-sm-offset-4 col-sm-4'>
-                    <label for="date">Date of Birth:
-                       <input type='date' class="form-control" id="bdate"/>
-                   </label>
-                </div>
-                </div>
-                <div class="row">
+            
+               <div class="row">
                 <div class='col-sm-offset-5 col-sm-2'>
-                    <br>
-                    <button class="btn btn-md btn-primary btn-block" id="Register">Register</button>
+                    <br><br>
+                    <button class="btn btn-md btn-primary btn-block" id="adm_client_register">Register</button>
                 </div>
 
                 <br><br><br><br>
@@ -121,7 +113,7 @@
     <script type="text/javascript" src="jQuery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="jQuery/jquery-ui.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/schedule.js"></script>
+    <script type="text/javascript" src="js/adm_reg_adm.js"></script>
     <script type="text/javascript" src="mask/dist/jquery.inputmask.bundle.js"></script>
     <script type="text/javascript" src="mask/dist/inputmask/inputmask.numeric.extensions.js"></script>
     <script type="text/javascript" src="mask/dist/inputmask/bindings/inputmask.binding.js"></script>

@@ -2,11 +2,10 @@ $(document).ready(function () {
 
     var input_email;
     var input_pass;
-
+    
     var i;
     var j;
-
-
+    
     $("#Submit_Button").click(function () {
         $("#Sign_in_Form").submit(function submit() {
 
