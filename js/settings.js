@@ -20,10 +20,10 @@ $(document).ready(function () {
 
     $(".info").prop('disabled', true);
 
-    $("#settings_name").val(getCookie("username"));
+    $("#settings_firstname").val(getCookie("firstname"));
+    $("#settings_lastname").val(getCookie("lastname"));
     $("#settings_email").val(getCookie("email"));
     $("#settings_password").val(getCookie("password"));
-    $("#settings_pet").val(getCookie("pet"));
 
 
     $("#settings_edit").click(function () {
@@ -33,10 +33,15 @@ $(document).ready(function () {
 
     $("#settings_save").click(function () {
         $(".info").prop('disabled', true);
+        
+        document.cookie = "firstname=" + $("#settings_firstname").val();
+        document.cookie = "lastname=" + $("#settings_lastname").val();
+        document.cookie = "email=" + $("#settings_email").val();
+        document.cookie = "password=" + $("#settings_password").val();
 
-        alert("new: " + $("#settings_name").val() + "\n" +
-            "new: " + $("#settings_email").val() + "\n" +
-            "new: " + $("#settings_password").val() + "\n" +
-            "new: " + $("#settings_pet").val());
+        alert("Your information has been changed!\n\n" +
+            "Name: " + $("#settings_firstname").val() + " " + $("#settings_lastname").val() + "\n" +
+            "Email: " + $("#settings_email").val() + "\n" +
+            "Password: " + $("#settings_password").val() + "\n");
     });
 });

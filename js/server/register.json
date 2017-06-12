@@ -1,64 +1,88 @@
 {
 	"users": [{
-			"name": "First User",
+			"firstname": "First",
+            "lastname": "User",
 			"email": "firstuser@email.com",
 			"password": "12345",
 			"birth": "11/05/1990",
-            		"pet": "Aventureiro",
-            		"petage": "6"
+            
+            "petname": "Aventureiro",
+            "pettype": "Bird",
+            "petage": "6",
+            "petsize": "Small",
+            "petgender": "Male"
 		},
 
 		{
-			"name": "Second User",
+			"firstname": "Second",
+            "lastname": "User",
 			"email": "seconduser@email.com",
 			"password": "54321",
 			"birth": "09/03/1985",
-            		"pet": "Mr Pickles",
-            		"petage": "2"
+            
+            "petname": "Mr Pickles",
+            "pettype": "Dog",
+            "petage": "2",
+            "petsize": "Medium",
+            "petgender": "Male"
 		},
               
         {
-			"name": "Third User",
+			"firstname": "Third",
+            "lastname": "User",
 			"email": "thirduser@email.com",
 			"password": "67890",
 			"birth": "09/03/1985",
-            		"pet": "Dogo",
-            		"petage": "7"
+            
+            "petname": "Dogo",
+            "pettype": "Dog",
+            "petage": "7",
+            "petsize": "Large",
+            "petgender": "Male"
 		},
               
         {
-			"name": "Forth User",
+			"firstname": "Forth",
+            "lastname": "User",
 			"email": "forthuser@email.com",
 			"password": "09876",
 			"birth": "09/03/1985",
-            		"pet": "Doge",
-            		"petage": "1"
+            
+            "petname": "Meowt",
+            "pettype": "Cat",
+            "petage": "1",
+            "petsize": "Small",
+            "petgender": "Female"
 		}
 	],
 
 	"admins": [{
-			"name": "First Adm",
+			"firstname": "First",
+            "lastname": "Admin",
 			"email": "firstadm@email.com",
 			"password": "12345",
 			"birth": "15/01/1986"
 		},
 
 		{
-			"name": "Second Adm",
+			"firstname": "Second",
+            "lastname": "Admin",
 			"email": "secondadm@email.com",
 			"password": "54321",
 			"birth": "04/08/1994"
 		},
                
         {
-			"name": "Third Adm",
+			"firstname": "Third",
+            "lastname": "Admin",
 			"email": "thirdadm@email.com",
 			"password": "67890",
 			"birth": "04/08/1994"
 		},
                
         {
-			"name": "Forth Adm",
+			"firstname": "Forth",
+            "lastname": "Admin",
 			"email": "forthadm@email.com",
 			"password": "09876",
 			"birth": "04/08/1994"

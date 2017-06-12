@@ -25,12 +25,19 @@ $(document).ready(function () {
 
                                     console.log("got an user");
                                     console.log("CLIENT-USER E PASS CORRETOS");
-                                    
-                                    document.cookie = "username=" + data[i][j].name;
+
+                                    document.cookie = "firstname=" + data[i][j].firstname;
+                                    document.cookie = "lastname=" + data[i][j].lastname;
                                     document.cookie = "email=" + data[i][j].email;
                                     document.cookie = "password=" + data[i][j].password;
-                                    document.cookie = "pet=" + data[i][j].pet;
+                                    document.cookie = "birth=" + data[i][j].birth;
                                     
+                                    document.cookie = "petname=" + data[i][j].petname;
+                                    document.cookie = "pettype=" + data[i][j].pettype;
+                                    document.cookie = "petage=" + data[i][j].petage;
+                                    document.cookie = "petsize=" + data[i][j].petsize;
+                                    document.cookie = "petgender=" + data[i][j].petgender;
+
                                     window.location.href = "client_menu.html";
                                     console.log("client logged");
                                 }
@@ -39,6 +46,12 @@ $(document).ready(function () {
 
                                     console.log("got an adm");
                                     console.log("ADM-USER E PASS CORRETOS");
+                                    
+                                    document.cookie = "firstname=" + data[i][j].firstname;
+                                    document.cookie = "lastname=" + data[i][j].lastname;
+                                    document.cookie = "email=" + data[i][j].email;
+                                    document.cookie = "password=" + data[i][j].password;
+                                    document.cookie = "birth=" + data[i][j].birth;
 
                                     window.location.href = "adm_menu.html";
                                     console.log("adm logged");

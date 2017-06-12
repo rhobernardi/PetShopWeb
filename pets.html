@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/client.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="jQuery/jquery-ui.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,10 +15,10 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
-
     <nav class="navbar navbar-inverse">
 
         <div class="container">
@@ -33,8 +33,8 @@
                         
                 </button>
 
-                <a class="navbar-brand" href="client_menu.html" style="padding: 0;">
-                    <img src="img/logo.png" class="img-responsive" alt="Responsive image" style="width: 100%;max-width: 300px;height: 60px;">
+                <a class="navbar-brand" href="#" style="padding: 0;">
+                    <img src="img/logo.png" class="img-responsive" alt="Responsive image" style="width: 100%; max-width: 300px; height: 60px;">
                 </a>
 
             </div>
@@ -56,7 +56,7 @@
                     <li><a href="client_menu.html">Home</a></li>
                     <li><a href="store.html">Store</a></li>
                     <li><a href="schedule.html">Schedules</a></li>
-                    <li class="active"><a href="pets.html">Pets</a></li>
+                    <li class="active"><a href="#">Pets</a></li>
                     <li><a href="configs.html">Settings</a></li>
                     <li><a href="sign_in.html">Log out</a></li>
 
@@ -70,37 +70,60 @@
 
             <h1>Pet Spot</h1>
 
-            <!--<a href="store.html"><button class="col-md-5 btn btn-default text-center" id="store" type="submit">
-                <img src="img/sacola.png" class="img-responsive" alt="Responsive image">
-                <br>
-                <p>Store</p>
-            </button></a>
-            
-            <a href="schedule.html"><button class="col-md-5 btn btn-default" id="schedule" type="submit">
-                <img src="img/agenda.png" class="img-responsive" alt="Responsive image">
-                <br>
-                <p>Schedule</p>
-            </button></a>
-            
-            <a href="pets.html"><button class="col-md-5 btn btn-default" id="pets" type="submit">
-                <img src="img/pet.png" class="img-responsive" alt="Responsive image">
-                <br>
-                <p>Pet Spot</p>
-            </button></a>
-            
-            <a href="configs.html"><button class="col-md-5 btn btn-default" id="configs" type="submit">
-                <img src="img/config.png" class="img-responsive" alt="Responsive image">
-                <br>
-                <p>Settings</p>
-            </button></a>-->
+            <br><br>
 
+            <div class="row">
+                <div class='col-sm-offset-2 col-sm-4'>
+                    <label>Pet Name</label>
+                    <input type='text' class="form-control info" id="pet_name" />
+                </div>
+                <div class='col-sm-2'>
+                    <label>Age (years)</label>
+                    <input type='text' class="form-control info" id="pet_age" />
+                </div>
+                <div class='col-sm-2'>
+                    <label>Type</label>
+                    <input type='text' class="form-control info" id="pet_type" />
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class='col-sm-offset-2 col-sm-4'>
+                    <label>Size</label>
+                    <input type='text' class="form-control info" id="pet_size" />
+                </div>
+                <div class='col-sm-4'>
+                    <label>Gender</label>
+                    <input type='text' class="form-control info" id="pet_gender" />
+                </div>
+            </div>
+
+            <div class="row">
+                <br>
+                <div class='col-sm-offset-4 col-sm-2'>
+                    <br>
+                    <button class="btn btn-md btn-primary btn-block" id="pet_edit">Edit</button>
+                </div>
+                <div class='col-sm-2'>
+                    <br>
+                    <button class="btn btn-md btn-primary btn-block" id="pet_save">Save</button>
+                </div>
+                <br><br><br><br>
+            </div>
         </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jQuery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jQuery/jquery-ui.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/pets.js"></script>
+    <script type="text/javascript" src="mask/dist/jquery.inputmask.bundle.js"></script>
+    <script type="text/javascript" src="mask/dist/inputmask/inputmask.numeric.extensions.js"></script>
+    <script type="text/javascript" src="mask/dist/inputmask/bindings/inputmask.binding.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
